@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Secure Password Generator</h1>
+      <h4>Use this tool to generate a random password based on the options selected below</h4>
+      <div class="generated-password">
+        <input type="text" id="password">
+        <button id="copy">Copy</button>
+        <button id="submit">Generate</button>
+      </div>
+      
+      <p>
+        select options:
+      </p>
+    
+        <table class="features">
+          <tr>
+            <td>Password Length:</td>
+            <td><input type="number" id="passwordLength" value="16" min="8" max="128" width="50px"></td>
+          </tr>
+
+          <tr>
+            <td>Include Uppercase:</td>
+            <td><input type="checkbox" id="uppercase"></td>
+          </tr>
+          <tr>
+            <td>Include Numbers:</td>
+            <td><input type="checkbox" id="num"></td>
+          </tr>
+          <tr>
+            <td>Include Symbols:</td>
+            <td><input type="checkbox" id="sym"></td>
+          </tr>
+        </table>
+      
+
+   
+    
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
