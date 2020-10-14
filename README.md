@@ -7,4 +7,5 @@
 * if user checks include symbols box, symbols are added to the generated password
 * user can then copy custom password with the copy button
 * [link](https://wattierdan.github.io/Random_Password_Generator/) to deployed application
+
 ![Webpage Screenshot](/assets/imgs/screencapture-wattierdan-github-io-Random-Password-Generator-2020-10-14-00_39_15.png)
