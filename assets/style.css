@@ -3,7 +3,6 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
-
 .container {
   width: 300px;
   font-family: 'Poppins', sans-serif;
@@ -19,6 +18,7 @@ body {
   border-radius: .5em;
 }
 
+/*styles finger print icon*/
 img {
   width: 70px;
   position: absolute;
@@ -26,7 +26,6 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
 .icon {
   position: absolute;
   left: 100px;
@@ -38,6 +37,7 @@ img {
   border-radius: 5em;
 }
 
+/*styles title*/
 h2 {
   text-align: center;
   margin-top: 50px;
@@ -45,6 +45,8 @@ h2 {
   z-index: 8;
 }
 
+
+/*styles generated password box*/
 #password {
   height: 30px;
   font-size: 20px;
@@ -52,7 +54,6 @@ h2 {
   width: 200px;
   background-color: transparent;
 }
-
 #copy {
   height: 20px;
   width: 20px;
@@ -63,16 +64,12 @@ h2 {
   outline: none;
   margin-top: 7px;
 }
-
 #copy:hover {
   transform: scale(1.1);
 }
-
 #copy:active {
   transform: scale(.9);
 }
-
-
 .generated-password {
   background-color: white;
   border: solid #595891 2px;
@@ -82,15 +79,47 @@ h2 {
   height: 35px;
 }
 
+/*general button styles*/
 button {
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
 }
-
 button:hover {
   cursor: pointer;
 }
 
+/*styles pasword options*/
+.input {
+  text-align: right;
+}
+input[type=number] {
+  width: 40px;
+  text-align: right;
+  border:	#595891 solid 2px;
+  border-radius: .2em;
+}
+input[type=text] {
+  border: none;
+  outline: none; 
+}
+.features {
+  font-size: 20px;
+  padding: 20px 20px;
+  margin: auto;
+  list-style-type: none;
+  text-align: left;
+}
+td {
+  padding: 5px 5px;
+  width: 100%;
+  font-size: 16px;
+}
+th {
+  text-align: center;
+  padding: 10px;
+}
+
+/*styles generate button*/
 #submit {
   width: 250px;
   text-transform: uppercase;
@@ -101,50 +130,10 @@ button:hover {
   color: white;
   outline: none;
 }
-
 #submit:hover {
   background-color: 	#aeb1c5;
   color: #595891;
-  
 }
-
 #submit:active {
   transform: scale(0.9);
-}
-
-
-
-.input {
-  text-align: right;
-}
-
-input[type=number] {
-  width: 40px;
-  text-align: right;
-  border:	#595891 solid 2px;
-  border-radius: .2em;
-}
-
-input[type=text] {
-  border: none;
-  outline: none; 
-}
-
-.features {
-  font-size: 20px;
-  padding: 20px 20px;
-  margin: auto;
-  list-style-type: none;
-  text-align: left;
-}
-
-td {
-  padding: 5px 5px;
-  width: 100%;
-  font-size: 16px;
-}
-
-th {
-  text-align: center;
-  padding: 10px;
 }
