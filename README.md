@@ -1,6 +1,5 @@
 ## Random-Password-Generator
 * a random password is generated based on user input
-* by default lowercase letters are used 
 * user can choose length of password from 8 - 128 characters
 * if user checks include uppercase box, uppercase letters are added to generated password
 * if user checks include numbers box, numbers are added to the generated password
