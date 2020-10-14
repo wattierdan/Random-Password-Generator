@@ -6,3 +6,5 @@
 * if user checks include numbers box, numbers are added to the generated password
 * if user checks include symbols box, symbols are added to the generated password
 * user can then copy custom password with the copy button
+
+![Webpage Screenshot](/assets/imgs/screencapture-wattierdan-github-io-Random-Password-Generator-2020-10-14-00_39_15.png)
