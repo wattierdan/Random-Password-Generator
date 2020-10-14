@@ -5,22 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Password Generator</title>
-    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style.css"/>
   </head>
   <body>
     <div class="container">
-      <h1>Secure Password Generator</h1>
-      <h4>Use this tool to generate a random password based on the options selected below</h4>
+      <div class="icon"><img src="./assets/imgs/NicePng_fingerprint-png_161271.png"></div>
+      <h2>Password Generator</h2>
+      
       <div class="generated-password">
         <input type="text" id="password">
-        <button id="copy">Copy</button>
-        <button id="submit">Generate</button>
+        <button id="copy"></button>
+  
       </div>
       
-      <p>
-        select options:
-      </p>
-    
+
         <table class="features">
           <tr>
             <td>Password Length:</td>
@@ -28,20 +27,24 @@
           </tr>
 
           <tr>
+            <td>Include Lowercase:</td>
+            <td class="input"><input type="checkbox" id="lowercase"></td>
+          </tr>
+          <tr>
             <td>Include Uppercase:</td>
-            <td><input type="checkbox" id="uppercase"></td>
+            <td class="input"><input type="checkbox" id="uppercase"></td>
           </tr>
           <tr>
             <td>Include Numbers:</td>
-            <td><input type="checkbox" id="num"></td>
+            <td class="input"><input type="checkbox" id="num"></td>
           </tr>
           <tr>
             <td>Include Symbols:</td>
-            <td><input type="checkbox" id="sym"></td>
+            <td class="input"><input type="checkbox" id="sym"></td>
           </tr>
         </table>
       
-
+        <button id="submit">Generate</button>
    
     
     </div>

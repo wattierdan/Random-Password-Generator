@@ -5,6 +5,7 @@ var sym="!#$%&'()*+,-./:;<=>?@[]\^_`{|}~";
 
 var passwordLength = document.getElementById('passwordLength');
 var uppercaseBox = document.getElementById('uppercase');
+var lowercaseBox = document.getElementById('lowercase')
 var numberBox = document.getElementById('num');
 var symbolBox = document.getElementById('sym');
 var submit = document.getElementById('submit');
@@ -13,7 +14,8 @@ var generatedPassword = document.getElementById('password');
 
 //determinds the the length of password and if it includes numbers or symbols uses ternary operators instead of if else for cleaner code
 submit.addEventListener("click", function conditionals() {
-  var characters = lowercase;
+  var characters = '';
+  (lowercaseBox.checked) ? characters += lowercase : '';
   (uppercaseBox.checked) ? characters += uppercase : '';
   (numberBox.checked) ? characters += num : ''; 
   (symbolBox.checked) ? characters += sym : ''; 
