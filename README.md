@@ -8,4 +8,4 @@
 * user can then copy custom password with the copy button
 * [link](https://wattierdan.github.io/Random_Password_Generator/) to deployed application
 
-![Webpage Screenshot](/assets/imgs/screencapture-wattierdan-github-io-Random-Password-Generator-2020-10-14-00_39_15.png)
+![Webpage Screenshot](/assets/imgs/screencapture-wattierdan-github-io-Random-Password-Generator-2020-10-17-15_32_26.png)
