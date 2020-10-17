@@ -19,12 +19,13 @@ body {
 }
 
 /*styles finger print icon*/
-img {
+.icon_img {
   width: 70px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  opacity: .5;
 }
 .icon {
   position: absolute;
@@ -120,6 +121,10 @@ th {
 }
 
 /*styles generate button*/
+.gen_img {
+  height: 15px;
+  padding-top: 5px;
+}
 #submit {
   width: 250px;
   text-transform: uppercase;
@@ -127,12 +132,11 @@ th {
   background-color: 	#747494;
   border: solid #595891 2px;
   border-radius: .2em;
-  color: white;
+  color: rgba(255, 255, 255, 0.856);
   outline: none;
 }
 #submit:hover {
-  background-color: 	#aeb1c5;
-  color: #595891;
+  transform: scale(1.1);
 }
 #submit:active {
   transform: scale(0.9);
