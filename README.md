@@ -15,7 +15,7 @@
 
 Do you hate having to come up with new passwords all the time? Do you hate all the requirements for passwords nowadays ie. must include  an uppercase letter, and a lowercase letter, and a symbol... but not that symbol, oh also put some number it there... as well as the the rights to naming your unborn child. Ok that might have gotten a little extravagant then but the point I was trying to make is: 
 
-`Coming up with new passwords is time consuming and lame. Use this app to make you life a little easier and then go do something awesome with all your free timenot comming up with new passwords.`
+`Coming up with new passwords is time consuming and lame. Use this app to make you life a little easier and then go do something awesome with all your free time not thinking up new passwords.`
   
   
 
