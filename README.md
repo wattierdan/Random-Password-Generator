@@ -1,5 +1,7 @@
 ## Random-Password-Generator
 
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ![Webpage Screenshot](/assets/imgs/screencapture-wattierdan-github-io-Random-Password-Generator-2020-10-17-15_32_26.png)
 
 ## Table of Contents
